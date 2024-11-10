@@ -70,5 +70,41 @@
     "price": "704.99",
     "category": "Tools",
     "description": "Our fluffy-inspired Bike brings a taste of luxury to your key lifestyle"
+  },
+  {
+    "name": "Small Wooden Car",
+    "price": "840.49",
+    "category": "Music",
+    "description": "New indigo Tuna with ergonomic design for little comfort"
+  },
+  {
+    "name": "Ergonomic Frozen Table",
+    "price": "37.49",
+    "category": "Sports",
+    "description": "The Fundamental heuristic moratorium Chicken offers reliable performance and awful design"
+  },
+  {
+    "name": "Incredible Cotton Gloves",
+    "price": "951.25",
+    "category": "Home",
+    "description": "The sleek and cruel Shirt comes with blue LED lighting for smart functionality"
+  },
+  {
+    "name": "Tasty Rubber Bacon",
+    "price": "770.18",
+    "category": "Clothing",
+    "description": "Introducing the Cayman Islands-inspired Table, blending dirty style with local craftsmanship"
+  },
+  {
+    "name": "Generic Bronze Pants",
+    "price": "592.90",
+    "category": "Automotive",
+    "description": "New Keyboard model with 85 GB RAM, 872 GB storage, and incomplete features"
+  },
+  {
+    "name": "Gorgeous Fresh Car",
+    "price": "323.39",
+    "category": "Jewelry",
+    "description": "Featuring Tungsten-enhanced technology, our Ball offers unparalleled foolhardy performance"
   }
 ]

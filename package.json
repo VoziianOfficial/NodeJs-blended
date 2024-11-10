@@ -5,7 +5,10 @@
   "type": "module",
   "scripts": {
     "generate": "node src/scripts/generateProducts",
-    "get-products-by-price": "node src/scripts/getProductsByPrice"
+    "get-products-by-price": "node src/scripts/getProductsByPrice",
+    "get-product-by-name": "node src/scripts/getProductByName",
+    "get-total-price": "node src/scripts/getTotalPrice",
+    "get-product-by-category": "node src/scripts/getProductsByCategory"
   },
   "keywords": [],
   "author": "",
