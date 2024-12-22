@@ -2,9 +2,9 @@ import createHttpError from "http-errors";
 import {
   findUserByEmail,
   createUser,
-  createUserSession,
+  // createUserSession,
 } from "../services/users.js";
-import bcrypt from "bcrypt";
+// import bcrypt from "bcrypt";
 
 export const registerUserController = async (req, res) => {
   const user = await findUserByEmail(req.body.email);
@@ -20,21 +20,21 @@ export const registerUserController = async (req, res) => {
   });
 };
 
-export const loginUserController = async (req, res) => {
-  const user = await findUserByEmail(req.body.email);
+// export const loginUserController = async (req, res) => {
+//   const user = await findUserByEmail(req.body.email);
 
-  if (!user) {
-    throw createHttpError(401, "Wrong credentials");
-  }
+//   if (!user) {
+//     throw createHttpError(401, "Wrong credentials");
+//   }
 
-  const isCorrectPassword = await bcrypt.compare(
-    req.body.password,
-    user.password
-  );
+//   const isCorrectPassword = await bcrypt.compare(
+//     req.body.password,
+//     user.password
+//   );
 
-  if (!isCorrectPassword) {
-    throw createHttpError(401, "Wrong credentials");
-  }
+//   if (!isCorrectPassword) {
+//     throw createHttpError(401, "Wrong credentials");
+//   }
 
-  const session = await createUserSession(user._id);
-};
+//   const session = await createUserSession(user._id);
+// };
